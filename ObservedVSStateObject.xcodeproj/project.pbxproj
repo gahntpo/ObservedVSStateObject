@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1753724625AAFFC000D11B54 /* MessengerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753724525AAFFC000D11B54 /* MessengerManager.swift */; };
 		1782F0A325AAEDEF001B439E /* ObservedVSStateObjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1782F0A225AAEDEF001B439E /* ObservedVSStateObjectApp.swift */; };
-		1782F0A525AAEDEF001B439E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1782F0A425AAEDEF001B439E /* ContentView.swift */; };
+		1782F0A525AAEDEF001B439E /* NewYearMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1782F0A425AAEDEF001B439E /* NewYearMessageView.swift */; };
 		1782F0A725AAEDEF001B439E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1782F0A625AAEDEF001B439E /* Assets.xcassets */; };
 		1782F0AA25AAEDEF001B439E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1782F0A925AAEDEF001B439E /* Preview Assets.xcassets */; };
+		1782F0B725AAF8C2001B439E /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1782F0B625AAF8C2001B439E /* AudioPlayer.swift */; };
+		1782F0BB25AAF945001B439E /* fireworks-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1782F0BA25AAF945001B439E /* fireworks-1.wav */; };
+		1782F0BE25AAF94F001B439E /* kickstarter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1782F0BD25AAF94F001B439E /* kickstarter.mp3 */; };
+		1782F0C125AAF970001B439E /* rain_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1782F0C025AAF970001B439E /* rain_1.mp3 */; };
+		1782F0C625AAF9D1001B439E /* EmojiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1782F0C525AAF9D1001B439E /* EmojiCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1753724525AAFFC000D11B54 /* MessengerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerManager.swift; sourceTree = "<group>"; };
 		1782F09F25AAEDEF001B439E /* ObservedVSStateObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObservedVSStateObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1782F0A225AAEDEF001B439E /* ObservedVSStateObjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedVSStateObjectApp.swift; sourceTree = "<group>"; };
-		1782F0A425AAEDEF001B439E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1782F0A425AAEDEF001B439E /* NewYearMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearMessageView.swift; sourceTree = "<group>"; };
 		1782F0A625AAEDEF001B439E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1782F0A925AAEDEF001B439E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1782F0AB25AAEDEF001B439E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1782F0B625AAF8C2001B439E /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		1782F0BA25AAF945001B439E /* fireworks-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "fireworks-1.wav"; sourceTree = "<group>"; };
+		1782F0BD25AAF94F001B439E /* kickstarter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kickstarter.mp3; sourceTree = "<group>"; };
+		1782F0C025AAF970001B439E /* rain_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain_1.mp3; sourceTree = "<group>"; };
+		1782F0C525AAF9D1001B439E /* EmojiCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				1782F0A225AAEDEF001B439E /* ObservedVSStateObjectApp.swift */,
-				1782F0A425AAEDEF001B439E /* ContentView.swift */,
-				1782F0A625AAEDEF001B439E /* Assets.xcassets */,
+				1782F0A425AAEDEF001B439E /* NewYearMessageView.swift */,
+				1753724525AAFFC000D11B54 /* MessengerManager.swift */,
+				1782F0C525AAF9D1001B439E /* EmojiCollectionView.swift */,
+				1782F0C325AAF982001B439E /* audio */,
 				1782F0AB25AAEDEF001B439E /* Info.plist */,
+				1782F0A625AAEDEF001B439E /* Assets.xcassets */,
 				1782F0A825AAEDEF001B439E /* Preview Content */,
 			);
 			path = ObservedVSStateObject;
@@ -67,6 +82,25 @@
 				1782F0A925AAEDEF001B439E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1782F0B925AAF902001B439E /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1782F0BA25AAF945001B439E /* fireworks-1.wav */,
+				1782F0C025AAF970001B439E /* rain_1.mp3 */,
+				1782F0BD25AAF94F001B439E /* kickstarter.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		1782F0C325AAF982001B439E /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				1782F0B625AAF8C2001B439E /* AudioPlayer.swift */,
+				1782F0B925AAF902001B439E /* sounds */,
+			);
+			path = audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +160,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1782F0C125AAF970001B439E /* rain_1.mp3 in Resources */,
+				1782F0BE25AAF94F001B439E /* kickstarter.mp3 in Resources */,
 				1782F0AA25AAEDEF001B439E /* Preview Assets.xcassets in Resources */,
+				1782F0BB25AAF945001B439E /* fireworks-1.wav in Resources */,
 				1782F0A725AAEDEF001B439E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1782F0A525AAEDEF001B439E /* ContentView.swift in Sources */,
+				1753724625AAFFC000D11B54 /* MessengerManager.swift in Sources */,
+				1782F0A525AAEDEF001B439E /* NewYearMessageView.swift in Sources */,
 				1782F0A325AAEDEF001B439E /* ObservedVSStateObjectApp.swift in Sources */,
+				1782F0B725AAF8C2001B439E /* AudioPlayer.swift in Sources */,
+				1782F0C625AAF9D1001B439E /* EmojiCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +309,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ObservedVSStateObject/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZB33FC454;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ObservedVSStateObject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ObservedVSStateObject/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZB33FC454;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ObservedVSStateObject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

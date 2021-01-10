@@ -11,7 +11,7 @@ import SwiftUI
 struct ObservedVSStateObjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NewYearMessageView()
         }
     }
 }
